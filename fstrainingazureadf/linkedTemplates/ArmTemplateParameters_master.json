@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "fstrainingazureadf"
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"Fstrainingblobls_connectionString": {
+			"value": ""
+		},
+		"fstrainingAzureSqlDatabase_connectionString": {
+			"value": ""
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "./"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "rahulkumar"
+		},
+		"storagetrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/619fbad9-63aa-4e57-8f23-9eaf2a224aeb/resourceGroups/fstrainingresourcegrp/providers/Microsoft.Storage/storageAccounts/fstrainingstrgact"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
