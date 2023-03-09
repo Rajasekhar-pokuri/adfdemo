@@ -1,0 +1,25 @@
+{
+	"name": "storagetrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "DemoPipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/fstrainingfeeds/blobs/LogFile",
+			"blobPathEndsWith": "csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/619fbad9-63aa-4e57-8f23-9eaf2a224aeb/resourceGroups/fstrainingresourcegrp/providers/Microsoft.Storage/storageAccounts/fstrainingstrgact",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

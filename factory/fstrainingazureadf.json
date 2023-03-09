@@ -1,0 +1,9 @@
+{
+	"name": "fstrainingazureadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9b342aea-65c4-42d6-a47c-892142f1768f",
+		"tenantId": "5f5c8b35-5297-4b6b-bb86-597441632f28"
+	}
+}
